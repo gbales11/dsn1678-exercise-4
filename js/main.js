@@ -29,3 +29,9 @@ $win.on('scroll', function() {
 $shuttleSection.waypoint(function () {
 	$shuttle.addClass('js-shuttle-fade');
 }, { offset: '50%' });
+
+	$shipsSection.css('background-position', 'center' + scrollPos / 2 + 'px')
+
+$shipsSection.waypoint(function () {
+	$ships.addClass('js-ships-fade');
+}, { offset: '50%' });
